@@ -172,3 +172,9 @@ footer { width: 232px; float: left; position: fixed; bottom: 30px; -webkit-font-
 .fakelink { text-decoration: none; cursor: pointer; }
 
 .bibref { font-size: 70%; margin-top: 10px; margin-left: 0px; display: none; font-family: monospace; }
+
+.custom-bullet {
+  list-style-type: disc; /* Use 'disc' for filled circle bullet */
+  color: black; /* Set the color of the bullet */
+  padding-left: 20px; /* Adjust the left padding to create space between bullet and content */
+}
