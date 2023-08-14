@@ -87,14 +87,40 @@
       </header>
       <section>
 
-      <h2 id="about-me">About Me</h2>
+<!--      <h2 id="about-me">About Me</h2>-->
 
-<p>I am a doctoral candidate in the Computer Engineering department at <a href="https://www.gwu.edu/">George Washington University</a>,
-  under the guidance of <a href="https://www2.seas.gwu.edu/~guruv/">Professor Guru Venkataramani</a>. My primary research
-  interests are software security and efficient machine learning in systems. My current research is focused on developing
-  hardware/ software optimizations for accelerating multi-agent reinforcement learning workloads. Prior to enrolling at GWU,
-  I completed my undergraduate studies in Computer Science and Engineering
-  at <a href="https://vit.ac.in/">Vellore Institute of Technology</a>, Tamil Nadu, India in 2019.</p>
+<!--<p>I am a doctoral candidate in the Computer Engineering department at <a href="https://www.gwu.edu/">George Washington University</a>,-->
+<!--  under the guidance of <a href="https://www2.seas.gwu.edu/~guruv/">Professor Guru Venkataramani</a>. My primary research-->
+<!--  interests are software security and efficient machine learning in systems. My current research is focused on developing-->
+<!--  hardware/ software optimizations for accelerating multi-agent reinforcement learning workloads. Prior to enrolling at GWU,-->
+<!--  I completed my undergraduate studies in Computer Science and Engineering-->
+<!--  at <a href="https://vit.ac.in/">Vellore Institute of Technology</a>, Tamil Nadu, India in 2019.</p>-->
+
+<head>
+    <title>About Me</title>
+    <style>
+        h2 {
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+<body>
+    <h2 id="about-me">About Me</h2>
+
+    <p>
+        I am a doctoral candidate in the Computer Engineering department at <a href="https://www.gwu.edu/">George Washington University</a>,
+        under the guidance of <a href="https://www2.seas.gwu.edu/~guruv/">Professor Guru Venkataramani</a>. My primary research
+        interests are software security and efficient machine learning in systems. My current research is focused on developing
+        hardware/software optimizations for accelerating multi-agent reinforcement learning workloads. Prior to enrolling at GWU,
+        I completed my undergraduate studies in Computer Science and Engineering
+        at <a href="https://vit.ac.in/">Vellore Institute of Technology</a>, Tamil Nadu, India in 2019.
+    </p>
+</body>
+
 
 <h2 id="Education">Education</h2>
 
@@ -114,7 +140,7 @@
 
 <ul>
   <li><strong>Languages:</strong> Python, R, Bash scripting</li>
-  <li><strong>Tools:</strong> Weights \& Biases, PowerBI, Tableu, RAPL, Vim, LaTex, Visual Studio, Perf, Anaconda, Jupyter Notebook,
+  <li><strong>Tools:</strong> Weights & Biases, PowerBI, Tableu, RAPL, Vim, LaTex, Visual Studio, Perf, Anaconda, Jupyter Notebook,
     Google colab, Numba, Microsoft Excel, Google Analytics</li>
   <li><strong>Databases:</strong> MySQL, Microsoft SQL</li>
   <li><strong>Cloud Technologies:</strong> Google Cloud Platform, Amazon Web Services</li>
@@ -129,23 +155,29 @@
 <h2 id="Research">Research Projects</h2>
 
 <ul>
-  <li><strong>High-Performance Multi-Agent Reinforcement Learning:</strong> Multi-Agent Reinforcement Learning (MARL) is a
-    promising research area that can model and control multiple distributed decision-making AI agents. However, recent
+  <li><strong>High-Performance Multi-Agent Reinforcement Learning (MARL)</strong>
+
+    <p> MARL is a promising research area that can model and control multiple distributed decision-making AI agents. However, recent
     studies have shown  that the MARL algorithms suffer from inefficiencies that can severely limit their adoption in real-world
     systems. These problems occur due to complexities in decision-making processes arising from having to observe and act upon
     a large number of events present in the environment, along with the growth in the number of AI agents needed to
-    interact with each other.
-
-    To ameliorate the learning efficiency and scalability issues of MARL algorithms, we will seek techniques to improve
+    interact with each other. To ameliorate the learning efficiency and scalability issues of MARL algorithms, we will seek techniques to improve
     neural-network throughput, to efficiently manage the state-action space in a dynamic fashion and to scalably encode states
-    and observations of a large and varying number of agents. </li>
-  <li><strong>Protocol Customization via Feature diagnosis, Elimination, Cross-grafting, and Trimming:</strong>
-    Customizing program binary and communication features is a commonly adopted strategy to counter network security threats like
-    session hijacking, context confusion, and impersonation attacks. A potential attacker may have enough time to launch an
-    attack targeting these vulnerabilities by rerouting the target request to a malicious server or hijacking the traffic.
-    This project presents a novel system Verify-Pro, a framework for server authentication using communication protocol dialects
-    by customizing the communication features, enforcing continuous authentication, detecting the adversary, and preventing
-    sensitive information leakage.  </li>
+    and observations of a large and varying number of agents. </p> </li>
+
+  <li><strong>Hardware-assisted Self Tuning Cyber Deception</strong>
+  <p> The objective of this project is to design a secure micro-architecture ecosystem that effectively deceives adversaries in an automated fashion and
+    drains their resources ultimately in order to prevent bad actors from gaining access to sensitive information. The investigation
+    will span memory, computer, and other performance enhancing hardware (including the various predictors). This project will add
+    a unique dimension to computer system security by complementing the trusted execution environments with active defense via
+    hardware.</p> </li>
+  <li><strong>Protocol Customization via Feature diagnosis, Elimination, Cross-grafting, and Trimming</strong>
+
+    <p>The project will investigate how to individualize security in cyber systems by customizing their protocols. In contrast to
+      the currently adopted “protocol standards", this first-of-a-kind approach is motivated by the fact that unnecessary code/layer
+      often introduced by standards may eventually be used as backdoors for security exploits, while protocol
+      customization enables the feature to debloat and can significantly eliminate the risks associated with monoculture
+      cyber systems. </p> </li>
 </ul>
 
 <!--<h2 id="news">News</h2>-->
@@ -156,6 +188,79 @@
 <!--  <li><strong>[Sept. 2019]</strong> Our paper about few-shot learning is accepted to NeurIPS 2019.</li>-->
 <!--  <li><strong>[Mar. 2019]</strong> Our paper about few-shot learning is accepted to CVPR 2019.</li>-->
 <!--</ul>-->
+<head>
+    <title>Experience</title>
+</head>
+<body>
+    <h1>Experience</h1>
+    <ul>
+        <li>
+            <strong>2019 – Present: Graduate Research Assistant</strong><br>
+            <em>The George Washington University, Advisor: Dr. Guru Venkataramani.</em>
+            <ul>
+                <li><strong>High Performance Multi-Agent Reinforcement Learning (MARL)</strong>
+                    <ol>
+<!--                        <li>Led multiple projects related to MARL, such as MAC-PO (finding an optimized prioritization scheme in MARL) and AccMER (developing a data-reuse strategy to accelerate MARL).</li>-->
+<!--                        <li>Responsibilities: MARL theoretical problem formulation, experiment</li>-->
+
+                          <li style="color: blue"> Analyzed the computational and scalability bottlenecks of MARL algorithms from systems perspective.
+                            Furthermore, we provide suggestions on future architectural improvement such as primitives for selective attention computation, shared-memory multi-threading, and
+                            processing-in-memory.  </li>
+
+                          <li style="color: blue">  Explored a neighbor sampling strategy <i style="color: black;">(MLArchSys-ISCA'23)</i> to improve the cache locality and observe performance improvement
+                            ranging from <strong style="color: green">26.66% (3 agents) to 27.39% (12 agents)</strong> for the computationally intensive mini-batch sampling phase.
+                            Additionally, we demonstrate that improving the cache locality leads to an end-to-end training time reduction of <strong style="color: green">10.2% (for 12 agents)</strong>
+                            compared to existing multi-agent algorithms without significant degradation in the mean reward.  </li>
+
+                          <li style="color: blue"> Developed <strong> AccMER </strong> <i style="color: black;">(ASAP'23)</i>, that repeatedly reuses the transitions for a window of
+                          n steps in order to improve the cache locality and minimize the transition data movement, instead of sampling new
+                          transitions at each step. Our experimental results on the Predator-Prey environment demonstrate the effectiveness of reusing the essential transitions based on the priority
+                          weights, where we observe an end-to-end training time reduction of <strong style="color: green">25.4% (for 32 agents)</strong> compared to existing prioritized
+                          MER algorithms without notable degradation in the mean reward.  </li>
+                    </ol>
+                        <li style="color: brown">Highlights: CPU-GPUs, Performance Modeling, Workload Characterization, Performance Bottlenecks, Performance Optimizations</i></li>
+<!--                        <li> Tools: Python, PyTorch, TensorFlow, Perf, NVProf</li>-->
+
+                </li>
+                <li><strong>Hardware-assisted Self Tuning Cyber Deception</strong>
+                    <ol>
+                        <li style="color: blue;">  Developed <strong>Foreseer</strong> <i style="color: black;">(SEED'22)</i>, a framework that can help proactive defenses through forecasting
+                          the raw event series needed for early detection of malware. Our experimental results show that Foreseer is able to synthesize
+                          ransomware-related features with low errors for most dominant factors used in detection, and cuts the time to predict the
+                          malware presence by about <strong style="color: green">40%</strong>. </li>
+<!--                        <li>Responsibilities: Theoretical derivation, time series analysis, experiment</li>-->
+                        <li style="color: blue;">  Explored hardware support to efficiently implement cyber-deception to transparently counter the
+                          malware with a near-native execution profile, thereby making deception-related operations invisible to the
+                          attackers <i style="color: black;">(GLSVLSI'23)</i>. </li>
+                        <li style="color: blue;">  MAYALOK <i style="color: black;">(ASAP'23)</i> introduces hardware deception primitives to transparently insert or skip malware program
+                          instructions during runtime and present a deceptive view of the system state to the attackers. We evaluate and
+                          demonstrate the deception efficacy of the MAYALOK framework on malware samples representing various attack vectors: Ransomware, Info-stealers, Buffer overflow, and Side-channels.</li>
+
+                    </ol>
+                    <li style="color: brown">Highlights: Gem5, Hardware/Software Security,Pro-active Defense/Deception</li>
+                </li>
+                <li><strong>Cyber Security: Protocol Customization via Feature diagnosis, Elimination, Cross-grafting, and Trimming</strong>
+                    <ol>
+                      <li style="color: blue;"> <strong> Verify-Pro</strong> <i style="color: black;">(MILCOM'22)</i> aims to use the protocol dialects as fingerprints during communication,
+                          and dynamically select different dialects based on a unique request in the session to compel continuous authentication.</li>
+                        <li style="color: blue;"> Developed a reliable application-layer moving target defense
+                          model <strong> (MPD)</strong> via customized communication protocols and dynamic synchronization and management <i style="color: black;">(Securecomm'21)</i>.</li>
+                    </ol>
+                  <li style="color: brown">Highlights: Cyber Security, Machine Learning for Security, Communication Protocol Customization</li>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <strong>Summer 2018: Intern</strong><br>
+            <em> <a href="">gnani.ai <a/></em>
+            <ul>
+                <li style="color: black;"> Developed an architecture for speech decoding application that serves over a million users per day and
+                  worked on data cleaning, and scraped different websites using the scrapy web crawler tool. </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+
 
 <h2 id="publications" style="margin: 2px 0px -15px;">Publications</h2>
 
@@ -164,35 +269,16 @@
 
 
 <ul class="custom-bullet">
-
-
 <li>
 <div class="pub-row">
-<!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">-->
-<!--    <img src="./assets/img/teaser_example.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />-->
-<!--            <abbr class="badge">CVPR</abbr>-->
-<!--  </div>-->
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://www.computer.org/csdl/proceedings-article/iwsc/2020/09047638/1iC6atD6sCY">Twin-Finder: Integrated Reasoning Engine for Pointer-Related Code Clone Detection</a></div>
-      <div class="author">Hongfa Xue, Yongsheng Mei, <strong>Kailash Gogineni</strong>, Guru Venkataramani, Tian Lan</div>
+      <div class="author">Hongfa Xue, Yongsheng Mei, <b>Kailash Gogineni</b>, Guru Venkataramani, Tian Lan</div>
       <div class="periodical"><em> IEEE 14th International Workshop on Software Clones<strong>(IWSC, SANER)</strong>, 2020, Ontario, Canada.</em>
       </div>
     <div class="links">
 
       <a href="https://www.researchgate.net/profile/Hongfa-Xue/publication/338762285_Twin-Finder_Integrated_Reasoning_Engine_for_Pointer-Related_Code_Clone_Detection/links/5e2901a192851c3aadd22d6c/Twin-Finder-Integrated-Reasoning-Engine-for-Pointer-Related-Code-Clone-Detection.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
-
-
-<!--      <a href="https://github.com/yaoyao-liu/class-incremental-learning/tree/main/mnemonics-training" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>-->
-
-
-<!--      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>-->
-
-
-<!--      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>-->
-
-
-<!--      <strong> <i style="color:#e74d3c">Oral Presentation</i></strong>-->
-
 
     </div>
   </div>
@@ -209,8 +295,43 @@
 <!--            <abbr class="badge">CVPR</abbr>-->
 <!--  </div>-->
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://arxiv.org/abs/2110.03798">MPD: Moving Target Defense through Communication Protocol Dialects</a></div>
+      <div class="author">Yongsheng Mei, <b>Kailash Gogineni</b>, Guru Venkataramani, Tian Lan</div>
+      <div class="periodical"><em>International Conference on Security and Privacy in Communication Systems<strong>(Securecomm)</strong>, 2021.</em>
+      </div>
+    <div class="links">
+
+      <a href="https://arxiv.org/abs/2110.03798" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>
+
+
+      <a href="https://github.com/ysmei97/MPD" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
+
+
+<!--      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>-->
+
+
+<!--      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>-->
+
+
+<!--      <strong> <i style="color:#e74d3c">Oral Presentation</i></strong>-->
+
+
+    </div>
+  </div>
+</div>
+</li>
+<br />
+
+
+<li>
+<div class="pub-row">
+<!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">-->
+<!--    <img src="./assets/img/teaser_example.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />-->
+<!--            <abbr class="badge">CVPR</abbr>-->
+<!--  </div>-->
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://ieeexplore.ieee.org/document/10017649">Verify-Pro: A Framework for Server Authentication Using Communication Protocol Dialects</a></div>
-      <div class="author"><strong>Kailash Gogineni</strong>, Yongsheng Mei, Guru Venkataramani, Tian Lan</div>
+      <div class="author"><b>Kailash Gogineni</b>, Yongsheng Mei, Guru Venkataramani, Tian Lan</div>
       <div class="periodical"><em>IEEE Military Communications Conference<strong>(MILCOM)</strong>, 2022, Rockville, Maryland, USA.</em>
       </div>
     <div class="links">
@@ -246,7 +367,7 @@
 <!--  </div>-->
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://ieeexplore.ieee.org/document/9935005">Foreseer: Efficiently Forecasting Malware Event Series with Long Short-Term Memory</a></div>
-      <div class="author"><strong>Kailash Gogineni</strong>, Preet Derasari, Guru Venkataramani</div>
+      <div class="author"><b>Kailash Gogineni</b>, Preet Derasari, Guru Venkataramani</div>
       <div class="periodical"><em>IEEE International Symposium on Secure and Private Execution Environment Design<strong>(SEED)</strong>, 2022, Virtual.</em>
       </div>
     <div class="links">
@@ -282,7 +403,7 @@
 <!--  </div>-->
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://www2.seas.gwu.edu/~guruv/glsvlsi23.pdf">MAYAVI: A Cyber-Deception Hardware for Memory Load-Stores</a></div>
-      <div class="author">Preet Derasari, <strong>Kailash Gogineni</strong>, Guru Venkataramani</div>
+      <div class="author">Preet Derasari, <b>Kailash Gogineni</b>, Guru Venkataramani</div>
       <div class="periodical"><em>ACM Great Lakes Symposium on VLSI <strong>(GLSVLSI)</strong>, 2023, Knoxville, TN.</em>
       </div>
     <div class="links">
@@ -319,7 +440,7 @@
 <!--  </div>-->
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
       <div class="title"><a href="https://openreview.net/pdf?id=0QA2qomtW3-">Towards Efficient Multi-Agent Learning Systems</a></div>
-      <div class="author"><strong>Kailash Gogineni</strong>, Peng Wei, Tian Lan and Guru Venkataramani</div>
+      <div class="author"><b>Kailash Gogineni</b>, Peng Wei, Tian Lan and Guru Venkataramani</div>
       <div class="periodical"><em>ML for Computer Architecture and Systems <strong>(MLArchSys, ISCA)</strong>, 2023, Orlando, Florida.</em>
       </div>
     <div class="links">
@@ -346,6 +467,42 @@
 
 <br />
 
+
+  <li>
+<div class="pub-row">
+<!--  <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">-->
+<!--    <img src="./assets/img/teaser_example.png" class="teaser img-fluid z-depth-1" style="width=100;height=40%" />-->
+<!--            <abbr class="badge">CVPR</abbr>-->
+<!--  </div>-->
+  <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
+      <div class="title"><a href="https://bpb-us-w2.wpmucdn.com/web.seas.gwu.edu/dist/9/15/files/2023/05/ASAP23_Kailash.pdf">MAYALOK: A Cyber-Deception Hardware
+Using Runtime Instruction Infusion</a></div>
+      <div class="author">Preet Derasari,<b> Kailash Gogineni</b>, Guru Venkataramani</div>
+      <div class="periodical"><em>IEEE International Conference on Application-specific Systems, Architectures, and Processors <strong>(ASAP)</strong>, 2023, Porto, Portugal.</em>
+      </div>
+    <div class="links">
+
+<!--      <a href="https://bpb-us-w2.wpmucdn.com/web.seas.gwu.edu/dist/9/15/files/2023/05/ASAP23_Kailash.pdf" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PDF</a>-->
+
+
+<!--      <a href="https://github.com/kailashg26/AccMER" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>-->
+
+
+<!--      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Project Page</a>-->
+
+
+<!--      <a href="https://class-il.mpi-inf.mpg.de/mnemonics/" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">BibTex</a>-->
+
+
+<!--      <strong> <i style="color:#e74d3c">Oral Presentation</i></strong>-->
+
+
+    </div>
+  </div>
+</div>
+</li>
+
+<br />
 
 
 <li>
@@ -391,7 +548,7 @@ Replay with Cache Locality-aware Prioritization</a></div>
 </ol>
 </div>
 
-<h2 id="services">Services</h2>
+<h2 id="services">Professional Services</h2>
 
 <h4 style="margin:0 10px 0;">Conference</h4>
 
